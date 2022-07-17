@@ -19,10 +19,7 @@ const FormCard2 = () => {
             alignItems:'center',
             justifyContent:'center'
         }} className="container">
-            <p style={{
-                color:'black',
-                fontSize:'20px'
-            }}>Scroll to see more...</p>
+            
             <div className="form-wrapper2">
                 <div className="form-title-wrapper2">
                     <h1 style={{

@@ -16,10 +16,10 @@ const FormCard1 = () => {
     }
     return (
         <div style={{
-            display:'flex',
-            height:'100vh',
-            alignItems:'center',
-            justifyContent:'center'
+            display: 'flex',
+            height: '100vh',
+            alignItems: 'center',
+            justifyContent: 'center'
         }} className="container">
             <h1>Form cards</h1>
             <div className="form-card-wrapper">
@@ -28,8 +28,8 @@ const FormCard1 = () => {
                     width: '267px',
                     height: '616px',
                     backgroundSize: 'cover',
-                    borderTopLeftRadius:'20px',
-                    borderBottomLeftRadius:'20px'
+                    borderTopLeftRadius: '20px',
+                    borderBottomLeftRadius: '20px'
                 }} className="form-image-wrapper">
                 </div>
                 <div className="form-wrapper">
@@ -74,6 +74,10 @@ const FormCard1 = () => {
                     </div>
                 </div>
             </div>
+            <p style={{
+                color: 'black',
+                fontSize: '20px'
+            }}>Scroll to see more...</p>
         </div>
     )
 }
