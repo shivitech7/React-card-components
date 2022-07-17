@@ -33,7 +33,9 @@ const CardItem3 = () => {
                 more days you need to work<br/>
                 to reach
             </p>
-            <button className="button-try-for-free">
+            <button style={{
+                cursor:'pointer'
+            }} className="button-try-for-free">
                 <p style={{
                     color: 'white'
                 }}>Try for free</p>

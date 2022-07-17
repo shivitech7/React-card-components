@@ -28,7 +28,8 @@ const CardItem1 = () => {
                         <li><p>- Work at the speed of thought.</p></li>
                     </ul>
                     <p style={{
-                        color:'#23A6F0'
+                        color:'#23A6F0',
+                        cursor:'pointer'
                     }}>Learn More</p>
                 </div>
             </div>

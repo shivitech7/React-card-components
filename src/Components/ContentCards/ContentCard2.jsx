@@ -8,7 +8,7 @@ const ContentCard2 = () => {
             <img width={327} height={202} src={ProductCoverImage} alt="product cover image" />
             <div className="content-card-content-wrapper">
                 <p style={{
-                    color:'#BDBDBD'
+                    color: '#BDBDBD'
                 }}>Course item</p>
                 <h1>Content Writer</h1>
                 <p style={{
@@ -23,7 +23,8 @@ const ContentCard2 = () => {
                     <p>1 July 2019</p>
                 </div>
                 <p style={{
-                    color:'#23A6F0'
+                    color: '#23A6F0',
+                    cursor: 'pointer'
                 }}>View Details</p>
             </div>
         </div>

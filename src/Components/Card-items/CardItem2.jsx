@@ -26,7 +26,9 @@ const CardItem2 = () => {
                 information about atomic and
                 small-scale behaviour during
             </p>
-            <button className="button-more">
+            <button style={{
+                cursor:'pointer'
+            }} className="button-more">
                 <p style={{
                     color: '#23A6F0'
                 }}>More</p>

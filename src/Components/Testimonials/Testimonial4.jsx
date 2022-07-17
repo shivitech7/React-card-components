@@ -22,8 +22,8 @@ const Testimonial4 = () => {
                 paddingLeft: '0px',
                 paddingRight: '0px',
                 gap: '15px',
-                paddingTop:'30px',
-                paddingBottom:'30px'
+                paddingTop: '30px',
+                paddingBottom: '30px'
             }} className="testimonial-content-wrapper">
                 <div style={{
                     alignItems: 'center',
@@ -35,12 +35,18 @@ const Testimonial4 = () => {
                     <p>Profession</p>
                 </div>
                 <div style={{
-                    display:'flex',
-                    gap:'20px'
+                    display: 'flex',
+                    gap: '20px'
                 }}>
-                    <img width={23} height={23} src={FacebookIcon} alt="facebook icon" />
-                    <img width={22} height={22} src={InstaIcon} alt="instagram icon" />
-                    <img width={22} height={18} src={TwiterIcon} alt="twiter icon" />
+                    <img style={{
+                        cursor: 'pointer'
+                    }} width={23} height={23} src={FacebookIcon} alt="facebook icon" />
+                    <img style={{
+                        cursor: 'pointer'
+                    }} width={22} height={22} src={InstaIcon} alt="instagram icon" />
+                    <img style={{
+                        cursor: 'pointer'
+                    }} width={22} height={18} src={TwiterIcon} alt="twiter icon" />
                 </div>
             </div>
         </div>

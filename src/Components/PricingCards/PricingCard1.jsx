@@ -48,7 +48,8 @@ const PricingCard1 = () => {
                 }}>Per Month</p>
             </div>
             <button style={{
-                width:'246px'
+                width:'246px',
+                cursor:'pointer'
             }} className="button-try-for-free">
                 <p style={{
                     color: 'white'

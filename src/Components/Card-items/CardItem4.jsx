@@ -14,11 +14,11 @@ const CardItem4 = () => {
             }}>
             </div>
             <div style={{
-                display:'flex',
-                flexDirection:'column',
-                padding:'0px 50px 40px 50px',
-                gap:'20px',
-                alignItems:'center'
+                display: 'flex',
+                flexDirection: 'column',
+                padding: '0px 50px 40px 50px',
+                gap: '20px',
+                alignItems: 'center'
             }}>
                 <p style={{
                     fontSize: '24px',
@@ -35,7 +35,9 @@ const CardItem4 = () => {
                     more days you need to work<br />
                     to reach
                 </p>
-                <button className="button-try-for-free">
+                <button style={{
+                    cursor: 'pointer'
+                }} className="button-try-for-free">
                     <p style={{
                         color: 'white'
                     }}>Try for free</p>

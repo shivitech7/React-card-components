@@ -39,7 +39,8 @@ const PricingCards2 = () => {
                 goal for the month and year.
             </p>
             <button style={{
-                width: '246px'
+                width: '246px',
+                cursor: 'pointer'
             }} className="button-try-for-free">
                 <p style={{
                     color: 'white'
