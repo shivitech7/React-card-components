@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+
+import FormCard1 from './Components/Form-cards/FormCard1';
+import FormCard2 from './Components/Form-cards/FormCard2';
+import FormCard3 from './Components/Form-cards/FormCard3';
+import ProductItem1 from './Components/Product-Items/ProductItem1';
+import CardItems from './Components/Card-items/CardItems';
+import Testimonials from './Components/Testimonials/Testimonials';
+import PricingCards from './Components/PricingCards/PricingCards';
+import ContentCards from './Components/ContentCards/ContentCards.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FormCard1 />
+      <FormCard2 />
+      <FormCard3 />
+      <ProductItem1 />
+      <CardItems />
+      <Testimonials />
+      <PricingCards />
+      <ContentCards />
     </div>
   );
 }

@@ -1,0 +1,18 @@
+.content-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 1px 2px 10px rgb(185, 184, 184);
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 48px;
+    width: 759px;
+    background-image: url(../Images/productBgImg.png);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.links-container{
+    display: flex;
+    gap: 15px;
+}
